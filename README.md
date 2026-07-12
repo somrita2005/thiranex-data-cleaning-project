@@ -1,15 +1,27 @@
-# Titanic Data Cleaning & Visualization
+# Thiranex Data Science Internship Projects
 
-This project explores the Titanic dataset using Python and Jupyter Notebook. It focuses on data cleaning and exploratory visualization to understand passenger survival patterns, age distribution, fare trends, and relationships between variables.
+This repo contains my submissions for the Thiranex Data Science internship track, built using the Titanic passenger dataset.
 
-## Highlights
-- Cleaned and prepared the Titanic dataset with pandas
-- Handled missing values, outliers, and duplicate records
-- Created visualizations with matplotlib and seaborn
-- Explored survival patterns and key passenger characteristics
+## Project 1: Data Cleaning & Visualization
+**File:** `Task1_Data_Cleaning_Visualization.ipynb`
 
-## Files
-- Task1_Data_Cleaning_Visualization.ipynb: notebook with data cleaning and visual analysis
-- titanic_raw.csv: original dataset
-- titanic_cleaned.csv: cleaned dataset
-- plots/: generated visualization images
+Cleans a raw, messy dataset — handling missing values, duplicates, and outliers — then visualizes key insights using pandas, matplotlib, and seaborn.
+
+**Key steps:** missing value imputation, duplicate removal, outlier capping (IQR method), and 5 visualizations covering survival patterns, age distribution, fare by class, and correlations.
+
+## Project 2: Predictive Modeling Using Machine Learning
+**File:** `Task2_Predictive_Modeling.ipynb`
+
+Builds and evaluates classification models to predict passenger survival using the cleaned dataset from Project 1.
+
+**Key steps:** trains Logistic Regression, Decision Tree, and Random Forest models; compares accuracy; visualizes performance with confusion matrices, ROC curves, and feature importance.
+
+## Tech Stack
+Python, pandas, numpy, matplotlib, seaborn, scikit-learn
+
+## Folder Structure
+├── Task1_Data_Cleaning_Visualization.ipynb
+├── Task2_Predictive_Modeling.ipynb
+├── titanic_raw.csv
+├── titanic_cleaned.csv
+└── plots/          # saved chart images from both notebooks
